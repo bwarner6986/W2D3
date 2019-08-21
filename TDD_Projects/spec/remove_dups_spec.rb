@@ -2,7 +2,7 @@ require 'remove_dups'
 require 'rspec'
 
 
-describe "my_uniq" do
+describe "#my_uniq" do
 
   it "removes duplicates from array" do
     arr = [1, 2, 1, 3, 3]
